@@ -1,85 +1,19 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import SectionTitle from '@/components/SectionTitle'
+import { getAllSolutions } from '@/lib/solutions'
 
-export const metadata = {
-  title: 'Industry Solutions',
-  description:
-    'YOUJIU provides tailored NdFeB magnet solutions for automotive, wind energy, consumer electronics, industrial automation, and medical industries. Custom engineering from design to production.',
+// Pre-render solutions at build time for SEO
+export const dynamic = 'force-static'
+
+export function generateMetadata() {
+  const solutions = getAllSolutions()
+  const industries = solutions.map(s => s.industry).join(', ')
+  return {
+    title: 'Industry Solutions | YOUJIU NdFeB Magnets',
+    description: `YOUJIU provides tailored NdFeB magnet solutions for ${industries}. Custom engineering from design to production.`,
+  }
 }
-
-const SOLUTIONS = [
-  {
-    title: 'Automotive & EV',
-    image: '/images/solution-automotive.png',
-    painPoint:
-      'EV traction motors demand high-energy magnets that maintain performance at elevated temperatures while minimizing size and weight. Sensor and actuator systems require consistent magnetic properties across millions of production units.',
-    youjiuSolution:
-      'We supply SH, UH, and EH grade arc magnets specifically engineered for EV traction motors, delivering optimal magnetic flux density with superior thermal stability up to 200C.',
-    advantages: [
-      'Arc segment design for optimal flux concentration',
-      'High coercivity grades (SH/UH/EH) for thermal stability',
-      'IATF 16949 certified manufacturing process',
-      'Automated assembly for consistent quality',
-    ],
-  },
-  {
-    title: 'Wind Energy',
-    image: '/images/solution-wind.png',
-    painPoint:
-      'Wind turbine generators require large-volume, high-grade magnets that can withstand decades of operation in harsh environmental conditions including extreme temperatures, humidity, and salt spray.',
-    youjiuSolution:
-      'Our high-coercivity NdFeB magnets for wind generators are engineered for long-term reliability, with specialized coatings for corrosion resistance in both offshore and onshore environments.',
-    advantages: [
-      'High Hcj grades for long-term demagnetization resistance',
-      'Salt spray resistant coatings (NiCuNi + epoxy)',
-      'Large block and segment manufacturing capability',
-      '25+ year design life matching turbine lifecycle',
-    ],
-  },
-  {
-    title: 'Consumer Electronics',
-    image: '/images/solution-electronics.png',
-    painPoint:
-      'Consumer devices demand miniaturized magnets with precise magnetic properties, tight dimensional tolerances, and consistent quality at high production volumes with cost efficiency.',
-    youjiuSolution:
-      'We produce precision miniature magnets for speakers, earbuds, haptic motors, and magnetic attachment systems, with automated optical inspection ensuring zero-defect quality at scale.',
-    advantages: [
-      'Micromachining capability down to 1mm dimensions',
-      'Automated optical inspection (AOI) for 100% quality control',
-      'Multi-pole magnetization for haptic applications',
-      'High-volume production with consistent properties',
-    ],
-  },
-  {
-    title: 'Industrial Automation',
-    image: '/images/solution-automation.png',
-    painPoint:
-      'Industrial automation systems require magnets that deliver reliable holding force, precise positioning, and long service life under continuous operation in demanding factory environments.',
-    youjiuSolution:
-      'Our magnetic assemblies for industrial applications include holding magnets, magnetic chucks, separator bars, and robotic end-effector components, engineered for 24/7 industrial environments.',
-    advantages: [
-      'Custom magnetic circuit design for optimal holding force',
-      'Steel yoke integration for enhanced field direction',
-      'High-temperature operation up to 200C',
-      'Wear-resistant coatings for industrial durability',
-    ],
-  },
-  {
-    title: 'Medical & Healthcare',
-    image: '/images/solution-medical.png',
-    painPoint:
-      'Medical devices require magnets with exceptional field uniformity, long-term stability, and biocompatibility, manufactured under strict quality controls with full traceability.',
-    youjiuSolution:
-      'We supply precision magnets for MRI systems, magnetic therapy devices, surgical instruments, and diagnostic equipment, with full material traceability and medical-grade quality assurance.',
-    advantages: [
-      'Field uniformity optimized for imaging applications',
-      'Medical-grade coating options (parylene, titanium)',
-      'Full material traceability and certification',
-      'ISO 13485 compliant quality management',
-    ],
-  },
-]
 
 const CAPABILITIES = [
   {
@@ -158,6 +92,8 @@ const PROCESS_STEPS = [
 ]
 
 export default function SolutionsPage() {
+  const SOLUTIONS = getAllSolutions()
+
   return (
     <>
       {/* 1. Page Title */}
