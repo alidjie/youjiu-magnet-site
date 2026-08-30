@@ -19,6 +19,21 @@ export interface Product {
   updated_at: string
 }
 
+export interface Solution {
+  title: string
+  slug: string
+  industry: string
+  painPoint: string
+  youjiuSolution: string
+  advantages: string[]
+  image: string
+  seoTitle: string | null
+  seoDescription: string | null
+  seoKeywords: string | null
+  published: boolean
+  sortOrder: number
+}
+
 export interface ContactSubmission {
   id: string
   name: string
