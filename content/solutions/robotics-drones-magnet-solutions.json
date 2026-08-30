@@ -1,0 +1,19 @@
+{
+  "title": "Robotics & Drones",
+  "slug": "robotics-drones-magnet-solutions",
+  "industry": "Robotics & Drones",
+  "painPoint": "Robotics and drone applications demand magnets with exceptional strength-to-weight ratios and thermal stability. Servo motors in robotic arms require NdFeB grades that maintain flux density at elevated operating temperatures (80-150 degrees C). Drone propulsion motors face challenges with weight optimization, magnetic field decay at high RPMs, and demagnetization risks during rapid temperature cycling. Precision actuators need tight dimensional tolerances (plus or minus 0.05mm) and consistent magnetic properties to ensure repeatable positioning accuracy. Sourcing magnets that balance maximum energy product (BHmax) with coercivity (Hcj) remains a critical bottleneck for manufacturers scaling production.",
+  "youjiuSolution": "YOUJIU supplies engineered NdFeB magnets including N45SH, N38UH, and N42EH grades tailored for servo motors, drone propulsion, and precision actuators. Our advanced grain boundary diffusion technology enhances intrinsic coercivity above 20 kOe while minimizing heavy rare earth consumption, achieving superior temperature stability up to 180 degrees C. We maintain dimensional tolerances of plus or minus 0.05mm through precision grinding and provide full magnetization direction control. Every batch undergoes 100 percent flux testing and demagnetization curve measurement. Contact YOUJIU today to discuss your robotics magnet specifications and receive a competitive quote within 24 hours.",
+  "advantages": [
+    "High coercivity grades (N45SH, N38UH) withstand temperatures up to 180C without flux loss.",
+    "Grain boundary diffusion technology reduces heavy rare earth usage while maintaining Hcj above 20 kOe.",
+    "Precision grinding ensures dimensional tolerances within 0.05mm for repeatable actuator positioning accuracy.",
+    "Full batch flux testing and demagnetization curve measurement guarantee consistent magnetic performance."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "Neodymium Magnet for Robotics & Drones Solutions | YOUJIU",
+  "seoDescription": "Premium NdFeB magnets for robotics and drones: servo motors, propulsion systems, and precision actuators. N45SH, N38UH grades. Request a quote from YOUJIU.",
+  "seoKeywords": "ndfeb magnet for robotics, neodymium magnet drones, servo motor magnet, robotics magnet supplier, drone propulsion magnet, n45sh magnet, n38uh magnet, youjiu magnet",
+  "published": true,
+  "sortOrder": 6
+}
