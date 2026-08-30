@@ -1,0 +1,19 @@
+{
+  "title": "Wind Energy",
+  "slug": "wind-energy-magnet-solutions",
+  "industry": "Wind Energy",
+  "painPoint": "Wind turbine generators require large-volume, high-grade magnets that can withstand decades of operation in harsh environmental conditions including extreme temperatures, humidity, and salt spray.",
+  "youjiuSolution": "Our high-coercivity NdFeB magnets for wind generators are engineered for long-term reliability, with specialized coatings for corrosion resistance in both offshore and onshore environments.",
+  "advantages": [
+    "High Hcj grades for long-term demagnetization resistance",
+    "Salt spray resistant coatings (NiCuNi + epoxy)",
+    "Large block and segment manufacturing capability",
+    "25+ year design life matching turbine lifecycle"
+  ],
+  "image": "/images/solution-wind.png",
+  "seoTitle": "Wind Turbine NdFeB Magnets | YOUJIU",
+  "seoDescription": "High-coercivity NdFeB magnets for wind turbine generators. Salt spray resistant coatings, 25+ year design life. Offshore and onshore wind energy solutions.",
+  "seoKeywords": "wind turbine magnet, NdFeB wind energy, high coercivity, salt spray coating, offshore wind, generator magnet",
+  "published": true,
+  "sortOrder": 2
+}
