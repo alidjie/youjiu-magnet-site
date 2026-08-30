@@ -11,7 +11,7 @@ export const metadata = {
 const SOLUTIONS = [
   {
     title: 'Automotive & EV',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&q=80',
+    image: '/images/solution-automotive.png',
     painPoint:
       'EV traction motors demand high-energy magnets that maintain performance at elevated temperatures while minimizing size and weight. Sensor and actuator systems require consistent magnetic properties across millions of production units.',
     youjiuSolution:
@@ -25,7 +25,7 @@ const SOLUTIONS = [
   },
   {
     title: 'Wind Energy',
-    image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&q=80',
+    image: '/images/solution-wind.png',
     painPoint:
       'Wind turbine generators require large-volume, high-grade magnets that can withstand decades of operation in harsh environmental conditions including extreme temperatures, humidity, and salt spray.',
     youjiuSolution:
@@ -39,7 +39,7 @@ const SOLUTIONS = [
   },
   {
     title: 'Consumer Electronics',
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80',
+    image: '/images/solution-electronics.png',
     painPoint:
       'Consumer devices demand miniaturized magnets with precise magnetic properties, tight dimensional tolerances, and consistent quality at high production volumes with cost efficiency.',
     youjiuSolution:
@@ -53,7 +53,7 @@ const SOLUTIONS = [
   },
   {
     title: 'Industrial Automation',
-    image: 'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=600&q=80',
+    image: '/images/solution-automation.png',
     painPoint:
       'Industrial automation systems require magnets that deliver reliable holding force, precise positioning, and long service life under continuous operation in demanding factory environments.',
     youjiuSolution:
@@ -67,7 +67,7 @@ const SOLUTIONS = [
   },
   {
     title: 'Medical & Healthcare',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
+    image: '/images/solution-medical.png',
     painPoint:
       'Medical devices require magnets with exceptional field uniformity, long-term stability, and biocompatibility, manufactured under strict quality controls with full traceability.',
     youjiuSolution:

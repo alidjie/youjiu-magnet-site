@@ -12,7 +12,7 @@ const CASES = [
   {
     industry: 'Automotive',
     title: 'EV Traction Motor Magnet Solution',
-    image: 'https://images.unsplash.com/photo-1567789884554-a7264f1a7226?w=800&q=80',
+    image: '/images/solution-automotive.png',
     overview:
       'A leading EV manufacturer needed high-temperature arc magnets for their next-generation traction motor program. The magnets had to maintain performance at 150C while meeting strict automotive quality standards.',
     product: 'Sintered NdFeB Arc Magnets (N42SH)',
@@ -22,7 +22,7 @@ const CASES = [
   {
     industry: 'Wind Energy',
     title: 'Offshore Wind Turbine Generator',
-    image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80',
+    image: '/images/solution-wind.png',
     overview:
       'An offshore wind farm developer required large-volume UH-grade block magnets for a 10MW turbine generator. The magnets needed to withstand salt spray and maintain performance over a 25-year service life.',
     product: 'Sintered NdFeB Block Magnets (N35UH)',
@@ -32,7 +32,7 @@ const CASES = [
   {
     industry: 'Consumer Electronics',
     title: 'Premium Audio Speaker Magnets',
-    image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&q=80',
+    image: '/images/solution-electronics.png',
     overview:
       'A premium audio brand needed high-grade ring magnets for their flagship headphone line. The magnets had to deliver powerful, distortion-free sound in a compact form factor.',
     product: 'Sintered NdFeB Ring Magnets (N48)',
@@ -42,7 +42,7 @@ const CASES = [
   {
     industry: 'Industrial Automation',
     title: 'Magnetic Separation System',
-    image: 'https://images.unsplash.com/photo-1581092160615-0d3a5c9e8a3e?w=800&q=80',
+    image: '/images/solution-automation.png',
     overview:
       'A mining company required a custom magnetic assembly for their mineral separation conveyor system. The system needed to achieve high separation efficiency while handling abrasive materials.',
     product: 'Magnetic Assembly - Separator Bar',

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { createClient } from '@/lib/supabase/server'
 import SectionTitle from '@/components/SectionTitle'
-import { PRODUCT_SERIES } from '@/lib/site-data'
+import { PRODUCT_SERIES, getProductImage } from '@/lib/site-data'
 import type { Product } from '@/types'
 
 export const metadata = {
@@ -50,7 +50,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'sintered', series: 'N Series', grade: 'N42', shape: 'Block',
     description: 'High-performance sintered NdFeB block magnet with NiCuNi coating.',
     specs: { Br: '12.9-13.2 kGs', BHmax: '40-43 MGOe' },
-    images: ['https://images.unsplash.com/photo-1565073624318-55d8a7c9a8ed?w=800&q=80'],
+    images: ['/images/magnet-block.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 1,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -60,7 +60,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'sintered', series: 'SH Series', grade: 'N48SH', shape: 'Ring',
     description: 'High-temperature ring magnet for motor applications, rated up to 150C.',
     specs: { Br: '13.6-14.0 kGs', BHmax: '45-48 MGOe' },
-    images: ['https://images.unsplash.com/photo-1581092160615-0d3a5c9e8a3e?w=800&q=80'],
+    images: ['/images/magnet-ring.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 2,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -70,7 +70,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'sintered', series: 'SH Series', grade: 'N35SH', shape: 'Arc',
     description: 'Precision arc segment magnet for motor rotors with tight tolerances.',
     specs: { Br: '11.7-12.1 kGs', BHmax: '33-36 MGOe' },
-    images: ['https://images.unsplash.com/photo-1530124566582-a118d10c2e7f?w=800&q=80'],
+    images: ['/images/magnet-arc.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 3,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -80,7 +80,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'sintered', series: 'N Series', grade: 'N52', shape: 'Cylinder',
     description: 'Maximum energy product cylinder magnet for high-force applications.',
     specs: { Br: '14.3-14.7 kGs', BHmax: '50-53 MGOe' },
-    images: ['https://images.unsplash.com/photo-1567789884554-a7264f1a7226?w=800&q=80'],
+    images: ['/images/magnet-disc.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 4,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -90,7 +90,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'bonded', series: 'Bonded NdFeB', grade: 'BNI-6', shape: 'Disc',
     description: 'Injection-molded bonded NdFeB disc for sensor applications.',
     specs: { Br: '6.0-6.5 kGs', BHmax: '5-6 MGOe' },
-    images: ['https://images.unsplash.com/photo-1556761175-5976dc0f7efa?w=800&q=80'],
+    images: ['/images/magnet-disc.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 5,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -100,7 +100,7 @@ const FALLBACK_PRODUCTS: Product[] = [
     category: 'assembly', series: 'Magnetic Assemblies', grade: 'Custom', shape: 'Assembly',
     description: 'Pre-assembled rotor magnet stack with steel yoke integration.',
     specs: { Type: 'Rotor Assembly', Material: 'NdFeB + Steel' },
-    images: ['https://images.unsplash.com/photo-1521737711867-e3b973756ce0?w=800&q=80'],
+    images: ['/images/solution-automotive.png'],
     seo_title: null, seo_description: null, seo_keywords: null,
     is_featured: true, is_published: true, sort_order: 6,
     created_at: '2024-01-01T00:00:00Z', updated_at: '2024-01-01T00:00:00Z',
@@ -178,21 +178,13 @@ export default async function ProductsPage() {
                         className="card-hover group overflow-hidden border border-neutral-200 bg-white"
                       >
                         <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
-                          {product.images && product.images.length > 0 ? (
-                            <Image
-                              src={product.images[0]}
-                              alt={product.name}
-                              fill
-                              className="object-cover transition-transform duration-500 group-hover:scale-105"
-                              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                            />
-                          ) : (
-                            <div className="flex h-full items-center justify-center text-neutral-300">
-                              <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth={1} viewBox="0 0 24 24">
-                                <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.5-1.5a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round" />
-                              </svg>
-                            </div>
-                          )}
+                          <Image
+                            src={getProductImage(product.shape)}
+                            alt={product.name}
+                            fill
+                            className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          />
                         </div>
                         <div className="p-6">
                           <div className="flex flex-wrap items-center gap-2">

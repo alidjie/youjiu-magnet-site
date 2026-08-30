@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import SectionTitle from '@/components/SectionTitle'
 import ContactForm from './contact-form'
 import { COMPANY } from '@/lib/site-data'
@@ -37,9 +38,20 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* 1. Page Title */}
-      <section className="section-padding bg-neutral-50">
-        <div className="container-custom">
+      {/* 1. Page Title with factory banner */}
+      <section className="relative flex min-h-[40vh] items-center justify-center overflow-hidden bg-neutral-950">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/case-factory.png"
+            alt=""
+            fill
+            priority
+            className="object-cover opacity-30"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-neutral-950/60 to-neutral-950" />
+        </div>
+        <div className="container-custom relative z-10 py-20 text-center">
           <SectionTitle
             title="Contact Us"
             subtitle="Get in touch for quotes, technical support, or partnership opportunities"

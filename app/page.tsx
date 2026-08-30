@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { createClient } from '@/lib/supabase/server'
 import SectionTitle from '@/components/SectionTitle'
-import { ADVANTAGES, APPLICATIONS } from '@/lib/site-data'
+import { ADVANTAGES, APPLICATIONS, APPLICATION_IMAGES, getProductImage } from '@/lib/site-data'
 import type { Product } from '@/types'
 
 export const metadata = {
@@ -85,13 +85,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'High-performance sintered NdFeB block magnet with NiCuNi coating for maximum corrosion resistance.',
     specs: { Br: '1.29-1.32 T', BHmax: '318-342 kJ/m3' },
-    images: ['https://images.unsplash.com/photo-1565073624318-55d8a7c9a8ed?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 1,
+    images: ['/images/magnet-block.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 1,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -106,13 +102,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'High-temperature ring magnet for motor applications, rated for continuous operation up to 150C.',
     specs: { Br: '1.36-1.40 T', BHmax: '366-390 kJ/m3' },
-    images: ['https://images.unsplash.com/photo-1581092160615-0d3a5c9e8a3e?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 2,
+    images: ['/images/magnet-ring.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 2,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -127,13 +119,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'Precision arc segment magnet for motor rotors with tight dimensional tolerances and uniform magnetic field.',
     specs: { Br: '1.17-1.21 T', BHmax: '263-287 kJ/m3' },
-    images: ['https://images.unsplash.com/photo-1530124566582-a118d10c2e7f?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 3,
+    images: ['/images/magnet-arc.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 3,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -148,13 +136,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'Injection-molded bonded NdFeB disc for sensor and actuator applications with complex geometry capability.',
     specs: { Br: '0.60-0.65 T', BHmax: '50-60 kJ/m3' },
-    images: ['https://images.unsplash.com/photo-1556761175-5976dc0f7efa?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 4,
+    images: ['/images/magnet-disc.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 4,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -169,13 +153,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'Pre-assembled rotor magnet stack with steel yoke integration, ready for direct motor assembly.',
     specs: { Type: 'Rotor Assembly', Material: 'NdFeB + Steel' },
-    images: ['https://images.unsplash.com/photo-1521737711867-e3b973756ce0?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 5,
+    images: ['/images/solution-automotive.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 5,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -190,13 +170,9 @@ const FALLBACK_PRODUCTS: Product[] = [
     description:
       'Maximum energy product cylinder magnet for high-force holding and clamping applications.',
     specs: { Br: '1.43-1.47 T', BHmax: '398-422 kJ/m3' },
-    images: ['https://images.unsplash.com/photo-1567789884554-a7264f1a7226?w=800&q=80'],
-    seo_title: null,
-    seo_description: null,
-    seo_keywords: null,
-    is_featured: true,
-    is_published: true,
-    sort_order: 6,
+    images: ['/images/magnet-disc.png'],
+    seo_title: null, seo_description: null, seo_keywords: null,
+    is_featured: true, is_published: true, sort_order: 6,
     created_at: '2024-01-01T00:00:00Z',
     updated_at: '2024-01-01T00:00:00Z',
   },
@@ -236,6 +212,18 @@ export default async function HomePage() {
     <>
       {/* 1. Hero Section */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-b from-neutral-950 to-neutral-900">
+        {/* Hero background image with dark overlay */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/hero-bg.png"
+            alt=""
+            fill
+            priority
+            className="object-cover opacity-40"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-neutral-950/70 via-neutral-950/50 to-neutral-950" />
+        </div>
         {/* Subtle grid pattern overlay */}
         <div
           className="absolute inset-0 opacity-5"
@@ -328,21 +316,13 @@ export default async function HomePage() {
               >
                 {/* Product image */}
                 <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
-                  {product.images && product.images.length > 0 ? (
-                    <Image
-                      src={product.images[0]}
-                      alt={product.name}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                  ) : (
-                    <div className="flex h-full items-center justify-center text-neutral-300">
-                      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth={1} viewBox="0 0 24 24">
-                        <path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.5-1.5a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                  )}
+                  <Image
+                    src={getProductImage(product.shape)}
+                    alt={product.name}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
                 </div>
                 {/* Product info */}
                 <div className="p-6">
@@ -390,27 +370,26 @@ export default async function HomePage() {
             {APPLICATIONS.map((app, i) => (
               <div
                 key={i}
-                className="card-hover border border-neutral-200 bg-neutral-50 p-8"
+                className="card-hover group overflow-hidden border border-neutral-200 bg-neutral-50"
               >
-                <div className="flex h-12 w-12 items-center justify-center text-neutral-800">
-                  <svg
-                    viewBox="0 0 24 24"
-                    className="h-7 w-7"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d={app.icon} />
-                  </svg>
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <Image
+                    src={APPLICATION_IMAGES[i] || '/images/magnet-disc.png'}
+                    alt={app.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-transparent" />
+                  <h3 className="absolute bottom-4 left-4 text-lg font-semibold text-white">
+                    {app.title}
+                  </h3>
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-foreground">
-                  {app.title}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  {app.description}
-                </p>
+                <div className="p-6">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {app.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>

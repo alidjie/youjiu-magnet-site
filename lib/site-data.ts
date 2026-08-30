@@ -117,6 +117,28 @@ export const APPLICATIONS: Application[] = [
   },
 ]
 
+// Map product shape to local image path (generated AI images, no watermark)
+export function getProductImage(shape: string): string {
+  const s = shape.toLowerCase()
+  if (s.includes('block') || s.includes('rect')) return '/images/magnet-block.png'
+  if (s.includes('ring')) return '/images/magnet-ring.png'
+  if (s.includes('arc') || s.includes('segment')) return '/images/magnet-arc.png'
+  if (s.includes('disc') || s.includes('disk')) return '/images/magnet-disc.png'
+  if (s.includes('cylinder')) return '/images/magnet-disc.png'
+  if (s.includes('assembly') || s.includes('rotor')) return '/images/solution-automotive.png'
+  return '/images/magnet-disc.png'
+}
+
+// Application images mapped from generated solution images
+export const APPLICATION_IMAGES: string[] = [
+  '/images/solution-automotive.png',   // Motors
+  '/images/solution-wind.png',         // Wind Energy
+  '/images/solution-electronics.png',  // Consumer Electronics
+  '/images/solution-automotive.png',   // Automotive
+  '/images/solution-medical.png',      // Medical Devices
+  '/images/solution-automation.png',   // Industrial Automation
+]
+
 export interface Advantage {
   title: string
   description: string
