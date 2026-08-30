@@ -1,0 +1,19 @@
+{
+  "title": "Consumer Electronics",
+  "slug": "consumer-electronics-magnet-solutions",
+  "industry": "Consumer Electronics",
+  "painPoint": "Consumer devices demand miniaturized magnets with precise magnetic properties, tight dimensional tolerances, and consistent quality at high production volumes with cost efficiency.",
+  "youjiuSolution": "We produce precision miniature magnets for speakers, earbuds, haptic motors, and magnetic attachment systems, with automated optical inspection ensuring zero-defect quality at scale.",
+  "advantages": [
+    "Micromachining capability down to 1mm dimensions",
+    "Automated optical inspection (AOI) for 100% quality control",
+    "Multi-pole magnetization for haptic applications",
+    "High-volume production with consistent properties"
+  ],
+  "image": "/images/solution-electronics.png",
+  "seoTitle": "Consumer Electronics Magnets | YOUJIU",
+  "seoDescription": "Precision miniature NdFeB magnets for speakers, earbuds, haptic motors. Micromachining down to 1mm. Automated optical inspection for zero-defect quality.",
+  "seoKeywords": "consumer electronics magnet, speaker magnet, earbud magnet, haptic motor, miniature magnet, multi-pole magnetization",
+  "published": true,
+  "sortOrder": 3
+}
