@@ -1,0 +1,19 @@
+{
+  "title": "Medical & Healthcare",
+  "slug": "medical-healthcare-magnet-solutions",
+  "industry": "Medical & Healthcare",
+  "painPoint": "Medical devices require magnets with exceptional field uniformity, long-term stability, and biocompatibility, manufactured under strict quality controls with full traceability.",
+  "youjiuSolution": "We supply precision magnets for MRI systems, magnetic therapy devices, surgical instruments, and diagnostic equipment, with full material traceability and medical-grade quality assurance.",
+  "advantages": [
+    "Field uniformity optimized for imaging applications",
+    "Medical-grade coating options (parylene, titanium)",
+    "Full material traceability and certification",
+    "ISO 13485 compliant quality management"
+  ],
+  "image": "/images/solution-medical.png",
+  "seoTitle": "Medical Device Magnets | YOUJIU",
+  "seoDescription": "Precision NdFeB magnets for MRI systems, medical devices, and surgical instruments. Medical-grade coatings, full traceability, ISO 13485 compliant.",
+  "seoKeywords": "medical magnet, MRI magnet, surgical instrument magnet, parylene coating, ISO 13485, biocompatible magnet",
+  "published": true,
+  "sortOrder": 5
+}
