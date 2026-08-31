@@ -1,0 +1,19 @@
+{
+  "title": "Magnetic Couplings & Pumps",
+  "slug": "magnetic-couplings-pumps",
+  "industry": "Magnetic Couplings & Pumps",
+  "painPoint": "Magnetic couplings and sealless pumps rely on NdFeB magnets to transmit torque through hermetically sealed barriers, eliminating dynamic seals and preventing leakage of hazardous fluids. However, maintaining torque density at elevated operating temperatures remains challenging. When pump media reach 120-200 degrees C, standard N42 or N48 grades suffer irreversible flux loss, reducing coupling efficiency and risking catastrophic failure. Additionally, corrosive environments demand superior coating integrity, while high-speed rotation induces eddy current losses that heat magnets and accelerate demagnetization. Engineers struggle to source magnets that simultaneously deliver high BHmax, adequate Hcj at temperature, and corrosion resistance for API 685 compliant sealless pump designs.",
+  "youjiuSolution": "YOUJIU provides specialized NdFeB magnets including 42SH, 38UH, and 35EH grades engineered for magnetic couplings and sealless pump applications. Our grain boundary diffusion process boosts intrinsic coercivity above 25 kOe, enabling stable performance at temperatures up to 200 degrees C without heavy rare earth excess. NiCuNi multi-layer and PTFE coating options ensure salt spray resistance exceeding 72 hours for corrosive fluid handling. Segment magnet arrays with segmented insulation minimize eddy current losses at high RPMs. Every production lot undergoes 100 percent torque transmission testing and demagnetization curve verification. Contact YOUJIU to discuss your magnetic coupling specifications and receive a tailored quote within 24 hours.",
+  "advantages": [
+    "High-temperature grades 42SH, 38UH, and 35EH maintain flux stability up to 200 degrees C.",
+    "Grain boundary diffusion technology achieves intrinsic coercivity above 25 kOe with reduced heavy rare earths.",
+    "NiCuNi and PTFE coating options provide salt spray resistance exceeding 72 hours for corrosive media.",
+    "Segmented magnet arrays with insulation layers minimize eddy current losses at high rotational speeds."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnet for Magnetic Couplings & Pumps | YOUJIU",
+  "seoDescription": "Premium NdFeB magnets for magnetic couplings and sealless pumps: 42SH, 38UH, 35EH grades with high-temperature stability. Get a quote from YOUJIU.",
+  "seoKeywords": "ndfeb magnet for magnetic couplings, neodymium magnet sealless pumps, magnetic coupling magnet supplier, 42sh magnet, 38uh magnet, 35eh magnet, api 685 pump magnet, youjiu magnet",
+  "published": true,
+  "sortOrder": 7
+}
