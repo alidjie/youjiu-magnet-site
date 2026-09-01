@@ -177,37 +177,39 @@ export default async function ProductsPage() {
                         key={product.id}
                         className="card-hover group overflow-hidden border border-neutral-200 bg-white"
                       >
-                        <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
-                          <Image
-                            src={getProductImage(product.shape)}
-                            alt={product.name}
-                            fill
-                            className="object-cover transition-transform duration-500 group-hover:scale-105"
-                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                          />
-                        </div>
-                        <div className="p-6">
-                          <div className="flex flex-wrap items-center gap-2">
-                            <span className="bg-neutral-100 px-2 py-0.5 text-xs font-medium text-neutral-600">
-                              {product.series}
-                            </span>
-                            <span className="bg-neutral-900 px-2 py-0.5 text-xs font-medium text-white">
-                              {product.grade}
-                            </span>
+                        <Link href={`/products/${product.slug}`} className="block">
+                          <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
+                            <Image
+                              src={getProductImage(product.shape)}
+                              alt={product.name}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-105"
+                              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            />
                           </div>
-                          <h3 className="mt-3 text-base font-semibold text-foreground">
-                            {product.name}
-                          </h3>
-                          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
-                            {product.description}
-                          </p>
-                          <div className="mt-4 flex items-center text-sm font-medium text-foreground">
-                            View Details
-                            <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                              <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
+                          <div className="p-6">
+                            <div className="flex flex-wrap items-center gap-2">
+                              <span className="bg-neutral-100 px-2 py-0.5 text-xs font-medium text-neutral-600">
+                                {product.series}
+                              </span>
+                              <span className="bg-neutral-900 px-2 py-0.5 text-xs font-medium text-white">
+                                {product.grade}
+                              </span>
+                            </div>
+                            <h3 className="mt-3 text-base font-semibold text-foreground">
+                              {product.name}
+                            </h3>
+                            <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
+                              {product.description}
+                            </p>
+                            <div className="mt-4 flex items-center text-sm font-medium text-foreground">
+                              View Details
+                              <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                                <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
+                              </svg>
+                            </div>
                           </div>
-                        </div>
+                        </Link>
                       </div>
                     ))}
                   </div>
