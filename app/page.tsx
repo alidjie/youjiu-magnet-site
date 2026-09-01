@@ -77,7 +77,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp1',
     name: 'Sintered NdFeB Block Magnet N42',
-    slug: 'sintered-ndfeb-block-n42',
+    slug: 'sintered-block-n42',
     category: 'sintered',
     series: 'N Series',
     grade: 'N42',
@@ -94,7 +94,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp2',
     name: 'Sintered NdFeB Ring Magnet N48SH',
-    slug: 'sintered-ndfeb-ring-n48sh',
+    slug: 'sintered-ring-n48sh',
     category: 'sintered',
     series: 'SH Series',
     grade: 'N48SH',
@@ -111,7 +111,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp3',
     name: 'Sintered NdFeB Arc Segment N35SH',
-    slug: 'sintered-ndfeb-arc-n35sh',
+    slug: 'sintered-arc-n35sh',
     category: 'sintered',
     series: 'SH Series',
     grade: 'N35SH',
@@ -128,7 +128,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp4',
     name: 'Bonded NdFeB Disc Magnet BNI-6',
-    slug: 'bonded-ndfeb-disc-bni6',
+    slug: 'bonded-disc-bni6',
     category: 'bonded',
     series: 'Bonded NdFeB',
     grade: 'BNI-6',
@@ -145,7 +145,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp5',
     name: 'Magnetic Assembly - Rotor Stack',
-    slug: 'magnetic-assembly-rotor-stack',
+    slug: 'assembly-rotor-stack',
     category: 'assembly',
     series: 'Magnetic Assemblies',
     grade: 'Custom',
@@ -162,7 +162,7 @@ const FALLBACK_PRODUCTS: Product[] = [
   {
     id: 'fp6',
     name: 'Sintered NdFeB Cylinder Magnet N52',
-    slug: 'sintered-ndfeb-cylinder-n52',
+    slug: 'sintered-cylinder-n52',
     category: 'sintered',
     series: 'N Series',
     grade: 'N52',
@@ -249,7 +249,7 @@ export default async function HomePage() {
               Request a Quote
             </Link>
             <Link
-              href="/products"
+              href={`/products/${product.slug}`}
               className="inline-flex items-center justify-center gap-2 border border-white/30 bg-transparent px-6 py-3 text-sm font-medium tracking-wide text-white transition-all hover:border-white hover:bg-white hover:text-neutral-950"
             >
               Explore Products
