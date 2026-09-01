@@ -249,7 +249,7 @@ export default async function HomePage() {
               Request a Quote
             </Link>
             <Link
-              href={`/products/${product.slug}`}
+              href="/products"
               className="inline-flex items-center justify-center gap-2 border border-white/30 bg-transparent px-6 py-3 text-sm font-medium tracking-wide text-white transition-all hover:border-white hover:bg-white hover:text-neutral-950"
             >
               Explore Products
