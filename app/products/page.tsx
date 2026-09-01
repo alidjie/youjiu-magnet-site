@@ -177,7 +177,7 @@ export default async function ProductsPage() {
                         key={product.id}
                         className="card-hover group overflow-hidden border border-neutral-200 bg-white"
                       >
-                        <Link href="/products" className="block">
+                        <Link href={`/products/detail?slug=${product.slug}`} className="block">
                           <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
                             <Image
                               src={getProductImage(product.shape)}
