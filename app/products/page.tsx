@@ -201,36 +201,15 @@ export default async function ProductsPage() {
                             <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
                               {product.description}
                             </p>
-                            <label className="mt-4 block cursor-pointer">
-                              <input type="checkbox" className="peer sr-only" />
-                              <div className="flex items-center text-sm font-medium text-foreground peer-checked:hidden">
-                                View Details
-                                <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                                  <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                              </div>
-                              <div className="hidden peer-checked:block pt-4">
-                                <div className="border-t border-neutral-200 pt-4">
-                                  <h4 className="text-xs font-semibold uppercase tracking-wide text-neutral-900">Specifications</h4>
-                                  <table className="mt-2 w-full border-collapse text-xs">
-                                    <tbody>
-                                      {Object.entries(product.specs || {}).map(([key, value], i) => (
-                                        <tr key={key} className={`border-b border-neutral-100 ${i % 2 === 0 ? 'bg-white' : 'bg-neutral-50'}`}>
-                                          <td className="px-2 py-1.5 font-medium text-neutral-700">{key}</td>
-                                          <td className="px-2 py-1.5 text-right text-neutral-900">{value}</td>
-                                        </tr>
-                                      ))}
-                                    </tbody>
-                                  </table>
-                                  <Link href="/contact" className="mt-3 inline-flex items-center gap-2 bg-neutral-900 px-4 py-2 text-xs font-semibold text-white transition-all hover:bg-neutral-800">
-                                    Request a Quote
-                                    <svg className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                                      <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                  </Link>
-                                </div>
-                              </div>
-                            </label>
+                            <Link
+                              href="/contact"
+                              className="mt-4 flex items-center text-sm font-medium text-foreground transition-colors hover:text-neutral-600"
+                            >
+                              Request a Quote
+                              <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                                <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" />
+                              </svg>
+                            </Link>
                           </div>
                       </div>
                     ))}
