@@ -177,8 +177,7 @@ export default async function ProductsPage() {
                         key={product.id}
                         className="card-hover group overflow-hidden border border-neutral-200 bg-white"
                       >
-                        <Link href={`/products/${product.slug}`} className="block">
-                          <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
+                                                  <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100">
                             <Image
                               src={getProductImage(product.shape)}
                               alt={product.name}
@@ -209,7 +208,6 @@ export default async function ProductsPage() {
                               </svg>
                             </div>
                           </div>
-                        </Link>
                       </div>
                     ))}
                   </div>
