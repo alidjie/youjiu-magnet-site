@@ -1,0 +1,19 @@
+{
+  "title": "Aerospace & Defense",
+  "slug": "aerospace-defense-magnet-solutions",
+  "industry": "Aerospace & Defense",
+  "painPoint": "Aerospace and defense systems demand magnetic components that survive extreme thermal cycling, high-G shock, and prolonged radiation exposure. Standard NdFeB grades like N42 and N52 suffer irreversible flux loss above 80°C, while defense actuators and satellite positioning mechanisms routinely operate in temperature swings from -60°C to +200°C. Designers struggle with demagnetization when high-coercivity grades such as 42SH, 35UH, and 30EH are improperly specified for mission-critical torque motors and harmonic drives. Weight constraints further complicate magnetic circuit optimization, where every gram saved in a magnetic latching system translates to fuel or payload gains. Sourcing consistent magnetic performance across production lots for flight-critical applications remains a persistent supply chain challenge.",
+  "youjiuSolution": "YOUJIU delivers mission-grade NdFeB magnets engineered for aerospace reliability. Our 42SH, 35UH, and 30EH grades maintain stable flux output across -65°C to +200°C thermal cycles, verified by accelerated aging and salt-spray testing per ASTM standards. We provide full magnetic characterization reports, including demagnetization curves, recoil permeability, and temperature coefficient data, for every production lot. Our precision grinding and multi-segment ring assembly capabilities enable optimized magnetic circuits for torque motors, gyroscopes, and magnetic latching systems. With ITAR-compliant documentation and lot traceability, YOUJIU ensures consistent supply for flight-critical programs. Contact our engineering team to discuss your magnetic specifications and request a tailored quotation for your aerospace application.",
+  "advantages": [
+    "High-coercivity grades (42SH, 35UH, 30EH) maintain stable flux output across extreme thermal cycles.",
+    "Full lot characterization with demagnetization curves and temperature coefficient data for flight traceability.",
+    "Precision grinding and multi-segment ring assembly for optimized torque motor magnetic circuits.",
+    "Accelerated aging and salt-spray tested per ASTM standards for mission-grade reliability."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "Aerospace NdFeB Neodymium Magnet Solutions | YOUJIU",
+  "seoDescription": "High-coercivity NdFeB magnets (42SH, 35UH, 30EH) for aerospace & defense. YOUJIU delivers mission-grade neodymium magnets with full lot traceability. Get a quote.",
+  "seoKeywords": "neodymium magnet aerospace, NdFeB defense, high-coercivity magnet, 42SH 35UH 30EH, aerospace magnetic components, NdFeB satellite, mission-grade magnet, YOUJIU neodymium",
+  "published": true,
+  "sortOrder": 8
+}
