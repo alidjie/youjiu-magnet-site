@@ -1,0 +1,19 @@
+{
+  "title": "Semiconductor Manufacturing",
+  "slug": "semiconductor-manufacturing-magnet-solutions",
+  "industry": "Semiconductor Manufacturing",
+  "painPoint": "Semiconductor fabrication demands ultra-precise magnetic field control for ion implantation beam steering, magnetron sputtering cathodes, and wafer-handling magnetic couplings. Even minor flux inconsistency in NdFeB arrays causes beam drift, thin-film uniformity defects, and yield loss exceeding six-sigma tolerances. High-vacuum chambers outgas contaminants from magnet coatings, while plasma environments degrade standard N42 and N48 grades through thermal cycling between 150°C process steps and ambient cooldowns. Equipment engineers struggle sourcing magnets that maintain stable Br and Hcj across thousands of deposition cycles without re-magnetization downtime.",
+  "youjiuSolution": "YOUJIU supplies semiconductor-grade NdFeB magnets in 38UH, 42UH, and 35EH grades engineered for plasma chamber endurance and vacuum compatibility. Our magnets feature low-outgassing TiN or Ni-Cu-Ni multilayer coatings tested per SEMI standards, maintaining stable flux density within ±1% across 2,000+ thermal cycles. We provide full BH-curve characterization, Helmholtz coil measurements, and lot-level traceability with every production batch to support your equipment qualification process. Contact our engineering team to discuss custom pole-piece integration, field-gradient mapping for ion-beam optics, and competitive volume pricing for your next deposition tool build.",
+  "advantages": [
+    "Grades 38UH to 35EH maintain stable Hcj above 950 kA/m through repeated thermal cycling",
+    "SEMI-compliant TiN and Ni-Cu-Ni multilayer coatings prevent plasma-induced outgassing in vacuum chambers",
+    "Full BH-curve and Helmholtz coil measurements provided with every production batch",
+    "Flux density held within ±1% tolerance across 2,000+ sputter deposition cycles"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Semiconductor Manufacturing | YOUJIU",
+  "seoDescription": "Semiconductor-grade NdFeB magnets (38UH-35EH) for sputtering, ion implantation & wafer handling. SEMI-compliant coatings. Contact YOUJIU for a quote today.",
+  "seoKeywords": "neodymium magnet semiconductor, NdFeB sputtering cathode, semiconductor grade magnet, magnetron sputtering magnet, ion implantation magnet, vacuum compatible neodymium magnet, 38UH 35EH magnet, YOUJIU",
+  "published": true,
+  "sortOrder": 10
+}
