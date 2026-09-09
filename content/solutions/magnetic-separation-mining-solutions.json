@@ -1,0 +1,19 @@
+{
+  "title": "Magnetic Separation & Mining",
+  "slug": "magnetic-separation-mining-solutions",
+  "industry": "Magnetic Separation & Mining",
+  "painPoint": "Magnetic separation is critical in mining and mineral processing for recovering ferrous contaminants, concentrating iron ore, and purifying industrial minerals. However, NdFeB magnets in drum and roll separators face extreme mechanical wear from abrasive ore slurries and impact loads from oversized feed material. High-throughput operations generate elevated temperatures that push standard N48 and N52 grades toward irreversible demagnetization, while acidic process water and saline environments accelerate corrosion of nickel-copper-nickel coatings. Engineers struggle to maintain peak magnetic field strength above 12,000 gauss while ensuring magnet assemblies survive 8,000-plus operating hours between maintenance cycles in harsh, remote mining installations.",
+  "youjiuSolution": "YOUJIU supplies high-performance NdFeB magnets including N52 and 45SH grades optimized for magnetic separation equipment in mining operations. Our grain boundary diffusion process elevates intrinsic coercivity above 21 kOe, ensuring flux stability at processing temperatures up to 150 degrees C without excessive heavy rare earth additions. Multi-layer NiCuNi plus epoxy resin coating systems achieve salt spray resistance beyond 96 hours, protecting against acidic slurry corrosion. Custom-segmented magnetic assemblies with high-strength stainless steel armor maximize surface field intensity while absorbing mechanical impact. Each production lot is validated by flux density mapping and demagnetization curve analysis. Contact YOUJIU to specify your separator requirements and receive a competitive quotation within 24 hours.",
+  "advantages": [
+    "N52 and 45SH grades deliver surface field intensity exceeding 12,000 gauss for mineral recovery.",
+    "Grain boundary diffusion technology achieves intrinsic coercivity above 21 kOe for thermal stability.",
+    "NiCuNi plus epoxy dual coating provides salt spray resistance beyond 96 hours in corrosive slurries.",
+    "Stainless steel armored assemblies absorb impact loads for 8,000-plus hours of maintenance-free operation."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnet for Magnetic Separation & Mining | YOUJIU",
+  "seoDescription": "Premium NdFeB magnets for magnetic separation and mining: N52, 45SH grades with high field strength and corrosion resistance. Request your quote from YOUJIU.",
+  "seoKeywords": "ndfeb magnet for magnetic separation, neodymium magnet mining, magnetic drum separator magnet, n52 magnet, 45sh magnet, mineral processing magnet supplier, magnetic separation equipment, youjiu magnet",
+  "published": true,
+  "sortOrder": 11
+}
