@@ -1,0 +1,19 @@
+{
+  "title": "Electric Bicycles & Scooters",
+  "slug": "electric-bicycles-scooters-magnet-solutions",
+  "industry": "Electric Bicycles & Scooters",
+  "painPoint": "E-bike and e-scooter manufacturers demand compact, lightweight motors that deliver high torque across a wide speed range. Sintered NdFeB magnets in hub and mid-drive motors must withstand operating temperatures reaching 120-150 degrees C during prolonged uphill riding or high-load delivery use. Standard N42 or N48 grades suffer irreversible flux losses at these temperatures, degrading motor efficiency and reducing riding range. Achieving IP67-rated weatherproofing while maintaining tight magnetic air gaps between rotor and stator remains a persistent engineering challenge. High-temperature grades such as 42SH and 38UH add cost pressure on price-sensitive micromobility supply chains.",
+  "youjiuSolution": "YOUJIU engineers high-performance NdFeB magnets specifically for e-bike and e-scooter drive systems, offering grades from N38SH to N42UH that maintain stable flux output at 150 degrees C and above. Our sintered magnets feature tight dimensional tolerances of plus or minus 0.05mm and superior BHmax values up to 48 MGOe, enabling higher torque density in compact hub motors. We provide anti-corrosion NiCuNi and epoxy coatings rated for 72-hour salt-spray testing, ensuring long-term durability in outdoor micromobility applications. From prototyping to volume production, our technical team supports motor OEMs with magnetic circuit simulation, grade selection, and rapid sampling. Contact YOUJIU to request a quotation tailored to your motor specifications.",
+  "advantages": [
+    "High-temperature grades N38SH to N42UH maintain stable magnetic flux at 150C operating conditions.",
+    "Dimensional tolerance of plus or minus 0.05mm ensures precise rotor-stator air gap fitment in hub motors.",
+    "NiCuNi and epoxy coatings pass 72-hour salt-spray testing for outdoor micromobility durability.",
+    "BHmax values up to 48 MGOe maximize torque density in compact e-bike drive motors."
+  ],
+  "image": "/images/solution-automotive.png",
+  "seoTitle": "NdFeB Magnet Solutions for E-Bikes & Scooters | YOUJIU",
+  "seoDescription": "Premium NdFeB magnets for electric bicycles and scooters. High-temp grades N38SH-N42UH, anti-corrosion coatings, tight tolerances. Request a quote from YOUJIU.",
+  "seoKeywords": "ndfeb magnets for e-bikes, neodymium magnet for electric scooters, high temperature ndfeb, ebike motor magnets, n38sh n42uh magnets, hub motor magnets, micromobility magnet supplier",
+  "published": true,
+  "sortOrder": 12
+}
