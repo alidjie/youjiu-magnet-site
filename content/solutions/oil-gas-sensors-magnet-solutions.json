@@ -1,0 +1,19 @@
+{
+  "title": "Oil & Gas Sensors",
+  "slug": "oil-gas-sensors-magnet-solutions",
+  "industry": "Oil & Gas Sensors",
+  "painPoint": "Downhole and subsea oil and gas environments demand magnetic sensors and Hall-effect switches that survive extreme temperatures, corrosive fluids, and intense vibration. Standard neodymium magnets suffer irreversible flux loss above 150 degrees C, yet downhole logging tools routinely encounter 180 degrees C and SAGD steam wells exceed 200 degrees C. Miniaturized reed switches, flow meters, and MWD (measurement while drilling) assemblies require tight dimensional tolerances and stable magnetic output to prevent false readings. Sour-gas service additionally demands NACE MR0175-aligned plating that resists H2S corrosion. Selecting the wrong grade leads to sensor drift, premature failure, and costly workover interventions.",
+  "youjiuSolution": "YOUJIU engineers high-temperature NdFeB grades including 35UH, 38UH, and 42SH, rated for continuous operation up to 180 degrees C with minimal flux loss. Each magnet undergoes salt-spray and H2S corrosion testing to support harsh sour-gas service per NACE MR0175 guidelines. We apply multi-layer Ni-Cu-Ni or epoxy plating for long-term durability in downhole probes, MWD tools, and subsea flow meters. Our CNC grinding and wire-EDM machining hold plus or minus 0.05mm tolerances for compact sensor assemblies. Contact YOUJIU for custom magnetic sub-assemblies with material certificates (EN 10204 3.1) to de-risk your next well-logging or pipeline-monitoring project.",
+  "advantages": [
+    "High-temperature 35UH and 42SH grades stable up to 180C with low flux loss.",
+    "NACE-aligned Ni-Cu-Ni and epoxy plating resists H2S corrosion in sour-gas service.",
+    "CNC and wire-EDM machining hold 0.05mm tolerances for compact sensor assemblies.",
+    "Full material certificates EN 10204 3.1 and salt-spray test reports provided."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "Neodymium Magnet for Oil & Gas Downhole Sensors | YOUJIU",
+  "seoDescription": "YOUJIU supplies high-temperature NdFeB magnets (35UH, 42SH) for oil & gas downhole sensors, MWD tools and subsea flow meters. Request a quote today.",
+  "seoKeywords": "ndfeb magnet for oil and gas, neodymium downhole sensor magnet, high temperature neodymium magnet, 35uh magnet, 42sh magnet, sour gas magnet, mwd magnetic sub-assembly, h2s resistant magnet",
+  "published": true,
+  "sortOrder": 14
+}
