@@ -1,0 +1,19 @@
+{
+  "title": "Rail & Transportation",
+  "slug": "rail-transportation-magnet-solutions",
+  "industry": "Rail & Transportation",
+  "painPoint": "Rail traction motors and linear synchronous motor systems demand NdFeB magnets that survive extreme thermal cycling, continuous vibration, and high humidity. Standard N42 or N48 grades suffer irreversible flux loss when traction motor temperatures exceed 150 degrees C, causing efficiency drops and torque ripple. Maglev guideway magnet arrays require tightly toleranced Br and Hcj to maintain thrust uniformity across long segments. Surface-mount motor designs face corrosion delamination from trackside salt spray and tunnel moisture. Inconsistent coercivity and dimensional tolerance cause motor cogging, audible noise, and uneven wear across trainset fleets.",
+  "youjiuSolution": "YOUJIU supplies grade-stabilized NdFeB magnets including 42SH, 40UH, and 38EH for rail traction and maglev applications, engineered for high-temperature coercivity with superior demagnetization resistance above 180 degrees C. Our magnet blocks are precision-sliced to plus or minus 0.05 mm tolerance and magnetized in custom fixtures to ensure thrust-curve consistency across linear motor arrays. Multi-layer NiCuNi and epoxy passivation protects against salt-spray and humidity delamination. Full Hcj, Br, and flux-distribution test reports accompany every batch. Contact YOUJIU for engineering-grade neodymium magnet solutions tailored to your rail propulsion specs.",
+  "advantages": [
+    "High-coercivity grades 42SH, 40UH, 38EH withstand sustained traction-motor temperatures above 180C without irreversible flux loss",
+    "Precision-sliced magnet blocks to plus or minus 0.05 mm tolerance minimize cogging torque and vibration in rail traction motors",
+    "Multi-layer NiCuNi plus epoxy passivation resists salt-spray corrosion in trackside and tunnel environments",
+    "Per-batch Hcj, Br, and flux-distribution test reports ensure consistent motor performance across trainset fleets"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Neodymium Magnet for Rail & Transportation | YOUJIU",
+  "seoDescription": "High-temp NdFeB magnets (42SH, 40UH, 38EH) for rail traction motors & maglev. Precision tolerance, corrosion resistance. Request a quote from YOUJIU today.",
+  "seoKeywords": "NdFeB magnet for rail transportation, neodymium magnet rail traction motor, high temperature NdFeB 42SH, maglev magnet, permanent magnet motor for train, NdFeB linear motor, corrosion resistant neodymium magnet",
+  "published": true,
+  "sortOrder": 17
+}
