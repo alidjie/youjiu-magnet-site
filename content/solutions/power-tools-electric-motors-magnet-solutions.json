@@ -1,0 +1,19 @@
+{
+  "title": "Power Tools & Electric Motors",
+  "slug": "power-tools-electric-motors-magnet-solutions",
+  "industry": "Power Tools & Electric Motors",
+  "painPoint": "Brushless DC (BLDC) motors in cordless power tools demand NdFeB magnets with maximum energy product (BHmax) above 50 MGOe while sustaining coercivity under aggressive thermal loads up to 150 degrees C. High-speed operation exceeding 30,000 RPM creates significant centrifugal stress on sintered magnet rings, risking micro-cracking and irreversible demagnetization. Impact-resistant magnet assemblies must survive repeated mechanical shock in hammer drills and impact drivers. Manufacturers struggle sourcing consistent N48 to N52 grades that maintain flux density after prolonged thermal cycling, particularly in compact tool housings where cooling capacity is severely limited.",
+  "youjiuSolution": "YOUJIU provides high-performance NdFeB magnets including N52, N48SH, and 42UH grades optimized for BLDC motors in cordless drills, angle grinders, and impact drivers. Our grain boundary diffusion process elevates intrinsic coercivity (Hcj) above 21 kOe while reducing heavy rare earth consumption by up to 30 percent. Sintered ring magnets with multipole magnetization deliver superior torque density in compact stators. Every batch passes salt-spray corrosion testing (72-hour neutral salt spray) and thermal cycling validation from -40 to 180 degrees C. Dimensional tolerances of plus or minus 0.03mm ensure press-fit assembly reliability. Contact YOUJIU to discuss your power tool magnet specifications and receive a detailed quotation within 24 hours.",
+  "advantages": [
+    "High-energy N52 and N48SH grades deliver superior torque density for compact BLDC motor stators.",
+    "Grain boundary diffusion technology achieves Hcj above 21 kOe with reduced heavy rare earth consumption.",
+    "Multipole sintered ring magnets withstand 30,000 RPM centrifugal stress without micro-cracking or demagnetization.",
+    "Salt-spray and thermal cycling validation ensures long-term reliability in harsh power tool environments."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Power Tools & Electric Motors | YOUJIU",
+  "seoDescription": "High-performance NdFeB magnets for BLDC power tool motors. N52, N48SH, 42UH grades with grain boundary diffusion. Request your quote from YOUJIU.",
+  "seoKeywords": "ndfeb magnet power tools, neodymium magnet bldc motor, power tool magnet supplier, n52 magnet, n48sh magnet, grain boundary diffusion magnet, cordless tool magnet, youjiu magnet",
+  "published": true,
+  "sortOrder": 18
+}
