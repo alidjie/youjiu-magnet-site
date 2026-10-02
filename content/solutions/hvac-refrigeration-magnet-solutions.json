@@ -1,0 +1,19 @@
+{
+  "title": "HVAC & Refrigeration",
+  "slug": "hvac-refrigeration-magnet-solutions",
+  "industry": "HVAC & Refrigeration",
+  "painPoint": "HVAC & refrigeration equipment manufacturers face mounting pressure to improve energy efficiency while downsizing compressor and fan motors. NdFeB magnets in these motors operate under demanding thermal conditions—compressor motors can sustain temperatures exceeding 120°C during continuous-duty cycles, requiring high-coercivity grades such as 42SH and 38UH that resist irreversible demagnetization. Refrigeration systems also expose magnets to moisture and refrigerant chemicals, accelerating corrosion and flux degradation. Inconsistent magnetic performance across batches causes motor efficiency drops, increased power consumption, and compliance failures against stringent energy standards like IE4 and IE5. Supply chain volatility for heavy rare-earth elements further complicates cost management for high-volume HVAC magnet procurement.",
+  "youjiuSolution": "YOUJIU supplies precision-grade NdFeB magnets engineered specifically for HVAC and refrigeration motor applications, delivering consistent flux density within plus or minus 2 percent across production batches. Our 42SH and 38UH grades maintain stable magnetic performance in continuous-duty compressor motors operating up to 180 degrees Celsius, while high-energy N48 and N52 grades maximize torque density for compact BLDC fan and blower motors. We apply specialized epoxy and NiCuNi coatings tested for resistance to refrigerants and condensation, preventing corrosion-induced flux loss in humid evaporator environments. Every magnet undergoes demagnetization curve and flux-gated inspection. Contact YOUJIU today with your HVAC motor specifications for a customized NdFeB magnet quotation.",
+  "advantages": [
+    "Batch flux uniformity within +/-2% ensures consistent motor efficiency and minimizes energy waste",
+    "42SH and 38UH grades resist demagnetization at continuous compressor operating temperatures up to 180C",
+    "Epoxy and NiCuNi coatings resist refrigerant corrosion and condensation in evaporator and condenser environments",
+    "Full demagnetization curve testing and flux-gated inspection on every magnet before shipment"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "Neodymium Magnet for HVAC Refrigeration Compressors | YOUJIU",
+  "seoDescription": "YOUJIU supplies premium NdFeB magnets for HVAC and refrigeration compressor motors. High-temp grades 42SH, 38UH, N52. Corrosion-resistant. Request a quote.",
+  "seoKeywords": "neodymium magnet for HVAC, NdFeB refrigeration compressor magnet, 42SH magnet for HVAC motor, 38UH high temperature magnet, NdFeB blower motor magnet, HVAC magnet supplier, neodymium magnet for refrigeration, YOUJIU NdFeB solutions",
+  "published": true,
+  "sortOrder": 19
+}
