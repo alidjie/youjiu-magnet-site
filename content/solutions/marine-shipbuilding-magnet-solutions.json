@@ -1,0 +1,19 @@
+{
+  "title": "Marine & Shipbuilding",
+  "slug": "marine-shipbuilding-magnet-solutions",
+  "industry": "Marine & Shipbuilding",
+  "painPoint": "Marine propulsion systems demand NdFeB magnets that endure extreme saltwater corrosion, sustained vibration, and thermal cycling from sub-zero to 150C engine-room temperatures. High-power permanent-magnet propulsion motors and podded azimuth thrusters require high-coercivity grades like 42SH and 35UH to resist irreversible flux loss under heavy load transients. Shipboard magnetic couplings in fuel and seawater transfer systems face galvanic corrosion when protective coatings fail. Batch inconsistency in magnet properties causes propulsion motor torque ripple, increased vibration, and premature bearing wear, critical failures where vessel downtime costs thousands per hour.",
+  "youjiuSolution": "YOUJIU engineers marine-grade NdFeB magnets with specialized triple-layer NiCuNi plus epoxy coatings that survive 720-hour salt-spray testing, protecting against chloride-induced corrosion in propulsion motors and magnetic couplings. Our 42SH and 35UH grades maintain stable flux at engine-room temperatures up to 180C, while N48 and N52 grades deliver maximum torque density for compact PM thruster designs. We ensure batch flux uniformity within plus or minus 2 percent, eliminating torque ripple in propulsion systems. Every magnet passes full demagnetization curve and pressure-resistance testing. Contact YOUJIU with your marine motor and coupling specifications for a tailored NdFeB magnet quotation.",
+  "advantages": [
+    "Triple-layer NiCuNi plus epoxy coatings pass 720-hour salt-spray testing for marine corrosion resistance",
+    "42SH and 35UH high-temperature grades resist demagnetization in propulsion motors up to 180 degrees Celsius",
+    "Batch flux uniformity within plus or minus 2 percent eliminates torque ripple and reduces bearing wear",
+    "Full demagnetization curve and pressure-resistance testing on every marine-grade magnet before shipment"
+  ],
+  "image": "/images/solution-automotive.png",
+  "seoTitle": "NdFeB Neodymium Magnet for Marine Shipbuilding | YOUJIU",
+  "seoDescription": "YOUJIU supplies marine-grade NdFeB magnets for ship propulsion motors and couplings. High-temp 42SH, 35UH grades with salt-spray coatings. Request a quote.",
+  "seoKeywords": "neodymium magnet for marine, NdFeB ship propulsion motor, 42SH marine magnet, 35UH high temperature magnet, marine magnetic coupling, salt-spray resistant NdFeB, shipbuilding magnet supplier, YOUJIU marine magnets",
+  "published": true,
+  "sortOrder": 20
+}
