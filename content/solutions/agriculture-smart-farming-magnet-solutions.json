@@ -1,0 +1,19 @@
+{
+  "title": "Agriculture & Smart Farming",
+  "slug": "agriculture-smart-farming-magnet-solutions",
+  "industry": "Agriculture & Smart Farming",
+  "painPoint": "Modern agriculture demands high-precision GPS-guided autonomous tractors and harvesters with compact yet powerful servo motors. Farm equipment operates in extreme temperature swings, high humidity, dust, and vibration. Standard magnets suffer flux loss in these conditions—N42 grades demagnetize when motors overheat during long harvest seasons, while weaker magnets force oversized motor designs that waste battery capacity in electric farm vehicles. Magnetic grain separators need high coercivity to remove ferrous contaminants reliably at high throughput, and irrigation pump motors require consistent torque under variable load.",
+  "youjiuSolution": "YOUJIU supplies agriculture-grade NdFeB magnets engineered for field durability. Our N42SH and N38SH grades maintain flux stability at 150°C for GPS-guided autonomous steering motors, while N52 blocks maximize torque density in compact precision seeding actuators. For grain cleaning systems, our 35UH high-coercivity magnets deliver superior separation of ferrous contaminants at high throughput. Every batch undergoes salt-spray corrosion testing and PCT pressure-cooker validation to ensure performance in humid, dusty field environments. Contact YOUJIU today for custom NdFeB specifications and competitive pricing for your agricultural motor and equipment programs.",
+  "advantages": [
+    "N42SH grade maintains stable flux at 150°C for GPS-guided autonomous tractor steering motors",
+    "High-coercivity 35UH magnets provide reliable ferrous contamin separation in grain cleaning systems",
+    "Salt-spray tested Ni+Cu+Ni coating ensures long-term corrosion resistance in humid field environments",
+    "N52 blocks deliver maximum torque density for compact electric actuators in precision seeding equipment"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnet for Agriculture & Smart Farming | YOUJIU",
+  "seoDescription": "NdFeB magnets for agriculture & smart farming. N42SH, N52, 35UH grades for autonomous tractors, irrigation pumps & grain separators. Contact YOUJIU for quotes.",
+  "seoKeywords": "neodymium magnet for agriculture, NdFeB smart farming, N42SH agricultural motor magnet, 35UH grain separator magnet, autonomous tractor magnet, precision farming NdFeB, agricultural servo motor magnet",
+  "published": true,
+  "sortOrder": 21
+}
