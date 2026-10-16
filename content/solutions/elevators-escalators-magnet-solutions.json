@@ -1,0 +1,19 @@
+{
+  "title": "Elevators & Escalators",
+  "slug": "elevators-escalators-magnet-solutions",
+  "industry": "Elevators & Escalators",
+  "painPoint": "Modern gearless elevator traction machines rely on permanent magnet synchronous motors (PMSM) using NdFeB magnets, but enclosed hoistway environments cause sustained operating temperatures above 120°C, risking irreversible demagnetization in standard N42 or N48 grades. Elevator manufacturers also struggle with torque ripple and cogging that generate vibration and audible noise in passenger cabins. Space-constrained machine rooms demand ultra-high energy density magnets, while safety-critical brake systems and door operators require consistent magnetic force over millions of cycles. Sourcing magnets with reliable coercivity and thermal stability at scale remains a persistent supply chain challenge for elevator OEMs.",
+  "youjiuSolution": "YOUJIU supplies high-coercivity NdFeB grades including 42SH, 38UH, and 35EH tailored for gearless elevator traction motors, ensuring stable magnetic performance at sustained temperatures up to 180°C. Our precision-magnetized segments with controlled tolerance ±0.05mm minimize cogging torque and vibration in PMSM rotors. We provide complete magnetic circuit consultation, helping elevator OEMs optimize flux density distribution for higher torque density in compact machine designs. Every batch undergoes coercivity and flux testing with full material certification. Contact YOUJIU today to request a custom quote for your elevator magnet specifications and reduce your total project cost.",
+  "advantages": [
+    "High-coercivity grades 42SH, 38UH, 35EH resist demagnetization at sustained 180°C operation",
+    "Precision-machined segments with ±0.05mm tolerance minimize cogging torque and passenger cabin vibration",
+    "Complete magnetic circuit consultation optimizes flux density for compact gearless traction motor designs",
+    "Full batch coercivity and flux testing with material certification ensures reliable safety-critical performance"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Neodymium Magnet for Elevators & Escalators | YOUJIU",
+  "seoDescription": "YOUJIU supplies high-coercivity NdFeB magnets (42SH, 38UH, 35EH) for gearless elevator traction motors. Request a custom quote for reliable magnetic solutions.",
+  "seoKeywords": "NdFeB magnet for elevators, neodymium magnet traction motor, gearless elevator magnet, high coercivity magnet 42SH, elevator PMSM magnet, YOUJIU magnet solutions, escalator motor magnet, high temperature NdFeB",
+  "published": true,
+  "sortOrder": 25
+}
