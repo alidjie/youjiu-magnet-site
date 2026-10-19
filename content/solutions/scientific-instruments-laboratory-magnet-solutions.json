@@ -1,0 +1,19 @@
+{
+  "title": "Scientific Instruments & Laboratory Equipment",
+  "slug": "scientific-instruments-laboratory-magnet-solutions",
+  "industry": "Scientific Instruments & Laboratory Equipment",
+  "painPoint": "Scientific instruments such as NMR spectrometers, mass spectrometers, and electron microscopes demand exceptionally stable and uniform magnetic fields. Even minor flux drift, temperature-induced demagnetization, or geometric deviation can corrupt measurement accuracy and reproducibility. Cryogenic and vacuum environments further challenge magnet integrity, while high-coercivity grades are essential to resist stray field interference and vibration. Sourcing magnets with consistent Br, tight dimensional tolerances, and reliable temperature coefficients remains a persistent bottleneck for instrument manufacturers worldwide. Field inhomogeneity beyond ppm levels degrades spectral resolution, making every gauss of deviation a costly compromise.",
+  "youjiuSolution": "YOUJIU delivers high-precision NdFeB magnets engineered for scientific and laboratory applications, offering grades from N52 for maximum flux density to 35UH and 33EH for cryogenic and high-temperature stability. Our magnets feature NiCuNi and epoxy coatings compatible with vacuum and cleanroom environments, with dimensional tolerances up to plus minus 0.02 mm. Each batch undergoes flux and Hall-sensor field mapping to guarantee batch-to-batch consistency below 1%. Contact YOUJIU with your field-strength and tolerance specifications to receive a tailored quote and technical datasheet for your instrument build.",
+  "advantages": [
+    "High-coercivity grades up to 33EH and 35UH for cryogenic and elevated-temperature stability.",
+    "Flux and Hall-sensor field mapping ensures sub-1% batch-to-batch magnetic consistency.",
+    "Vacuum-compatible NiCuNi and epoxy coatings suitable for cleanroom and UHV environments.",
+    "Precision-machined tolerances down to plus minus 0.02 mm for field-critical instrument assemblies."
+  ],
+  "image": "/images/solution-medical.png",
+  "seoTitle": "Neodymium Magnets for Scientific Instruments | YOUJIU",
+  "seoDescription": "Source precision NdFeB magnets for NMR, mass spectrometry & lab instruments. Grades N52 to 35UH with 0.02mm tolerance. Request your YOUJIU quote today.",
+  "seoKeywords": "neodymium magnet for scientific instruments, NdFeB NMR spectrometer, lab equipment magnets, high coercivity magnet 35UH, vacuum compatible neodymium magnet, precision NdFeB tolerance, scientific instrument magnet supplier",
+  "published": true,
+  "sortOrder": 26
+}
