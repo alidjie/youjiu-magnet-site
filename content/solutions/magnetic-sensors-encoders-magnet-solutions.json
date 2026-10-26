@@ -1,0 +1,19 @@
+{
+  "title": "Magnetic Sensors & Encoders",
+  "slug": "magnetic-sensors-encoders-magnet-solutions",
+  "industry": "Magnetic Sensors & Encoders",
+  "painPoint": "Position sensors and rotary encoders demand magnets with flawless magnetic consistency, because even minor field variation corrupts signal accuracy and angular resolution. Engineers face a persistent trade-off: sintered NdFeB delivers the field strength needed for high-resolution magnetic encoder targets, yet standard N42 discs drift under temperature swings above 80°C, causing calibration error on production lines. Harsh conditions compound the problem—humidity, lubricants, and vibration attack unprotected coatings, while tight encoder housings leave little room for large rotors. Sourcing magnets with aligned magnetization, controlled tolerances, and stable flux after thermal cycling up to 150°C remains a genuine bottleneck for sensor and encoder manufacturers.",
+  "youjiuSolution": "YOUJIU supplies sensor-grade sintered NdFeB engineered for encoder and position-sensing duty, including N42, N48, and 42SH grades with maximum operating temperatures from 80°C up to 150°C. We control magnetic alignment within ±1% to keep encoder signal linearity tight, and offer bonded and multi-pole ring magnets for compact Hall-effect and magnetoresistive assemblies. Epoxy, nickel-copper-nickel, and Parylene coatings withstand lubricants and humidity. Every batch is flux-tested and thermal-cycled before shipping, and custom tolerances, magnetizing patterns, and pole counts are supported. Send your drawing or performance target for a fast quotation and free samples.",
+  "advantages": [
+    "Encoder-grade N42 and 42SH magnets aligned within ±1% for stable, low-drift sensor output",
+    "Bonded and multi-pole ring magnets for compact Hall-effect and magnetoresistive encoder designs",
+    "Nickel, epoxy, and Parylene coatings protect against lubricants, humidity, and continuous vibration",
+    "100% flux and thermal-cycle testing up to 150°C ensures consistent performance batch after batch"
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Neodymium Magnets for Sensors & Encoders | YOUJIU",
+  "seoDescription": "Sensors & encoders need drift-free NdFeB magnets. YOUJIU supplies N42 & 42SH encoder magnets with ±1% alignment and 150°C stability. Request a quote today.",
+  "seoKeywords": "neodymium magnet for sensors, NdFeB encoder magnet, magnetic encoder ring magnet, N42 neodymium magnet, 42SH high temperature magnet, hall effect sensor magnet, custom encoder magnets, neodymium magnet supplier",
+  "published": true,
+  "sortOrder": 29
+}
