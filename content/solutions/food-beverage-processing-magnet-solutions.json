@@ -1,0 +1,19 @@
+{
+  "title": "Food & Beverage Processing",
+  "slug": "food-beverage-processing-magnet-solutions",
+  "industry": "Food & Beverage Processing",
+  "painPoint": "Food and beverage lines combine aggressive washdown chemicals, alternating hot and cold CIP cycles, and strict contamination control, yet the magnets buried inside separation grids, pumps, and sensors must keep working for years. Neodymium magnets that are not properly coated corrode quickly in acidic or chloride-rich environments, leaching coating flakes and losing flux. High sanitization temperatures above 120C demagnetize standard N grades, while ordinary nickel plating fails food-contact audits. Engineers also struggle with tiny metal fragments from worn blades and packaging that escape detection, and with motor-driven pumps that leak lubricant into the product stream, forcing expensive recalls and costly downtime across the entire production line.",
+  "youjiuSolution": "YOUJIU engineers food-industry assemblies around coated N42, N52, and high-temperature SH, UH, and EH grades that resist demagnetization through repeated 180C sterilization. Our magnet grids and tubes use epoxy or PTFE encapsulation plus stainless housings to survive acidic washdown and chloride exposure without corrosion. For hygienic pump and mixer drives we build sealed magnetic couplings that remove shaft seals and keep lubricants out of the product stream, while consistent lot-level magnetic testing supports FDA and EU 10/2011 compliance. Share your line conditions and contamination targets, and our engineers will specify the right grade, coating, and assembly geometry and return a detailed quotation for your application.",
+  "advantages": [
+    "Epoxy and PTFE encapsulation resists acidic washdown and repeated CIP sanitization without corrosion.",
+    "N42 to N52 and SH/UH/EH grades hold flux through sterilization up to 180C.",
+    "Sealed magnetic couplings remove shaft seals and keep lubricants out of product streams.",
+    "FDA and EU 10/2011 compliant materials with full lot-level traceability for audits."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Food & Beverage Processing | YOUJIU",
+  "seoDescription": "Food-grade NdFeB magnets for processing lines: N42/N52 separation grids, SH/UH grades for CIP heat, hygienic magnetic drives. Request a quote from YOUJIU today.",
+  "seoKeywords": "neodymium magnet for food processing, NdFeB food grade magnet, magnetic separation grid, high temperature SH grade magnet, hygienic magnetic drive pump, N52 neodymium magnet, FDA compliant magnet",
+  "published": true,
+  "sortOrder": 30
+}
