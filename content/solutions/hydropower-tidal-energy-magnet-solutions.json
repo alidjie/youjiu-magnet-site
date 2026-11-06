@@ -1,0 +1,19 @@
+{
+  "title": "Hydropower & Tidal Energy",
+  "slug": "hydropower-tidal-energy-magnet-solutions",
+  "industry": "Hydropower & Tidal Energy",
+  "painPoint": "Hydro and tidal turbine generators run submerged or in high-humidity environments, where direct-drive permanent magnet rotors must deliver high torque at low speed without a gearbox for decades. Designers face severe constraints: seawater corrosion, cavitation, and biofouling, plus fluctuating loads that can demagnetize unstable magnets. Producing rated flux at large diameters demands uniform, high-grade blocks and arc segments, while minimizing eddy-current losses and rotor weight. Temperature excursions and salt spray degrade coatings, and inconsistent magnetic properties between batches cause balancing problems and reduced generator efficiency across the asset lifetime.",
+  "youjiuSolution": "YOUJIU supplies high-performance NdFeB magnets engineered for hydro and tidal generators, including N42, N48, N52 and 35UH grades with tailored temperature ratings up to 180°C. We manufacture large blocks and precision arc segments with tight dimensional tolerances and consistent magnetic flux, enabling efficient direct-drive and rim-drive designs. Multi-layer NiCuNi plus epoxy or marine-grade coatings withstand salt spray and humid service. Our engineering team helps select the right grade and coating for your duty cycle, then validates flux and demagnetization margins before shipping. Request a quote for your generator or turbine project today.",
+  "advantages": [
+    "High-coercivity N42 to N52 grades resist demagnetization under fluctuating turbine loads.",
+    "Marine-grade NiCuNi and epoxy coatings pass long salt-spray and humidity tests.",
+    "Custom large blocks and arc segments with tight tolerances and uniform flux.",
+    "Grade and coating selection support with flux validation for direct-drive generators."
+  ],
+  "image": "/images/solution-wind.png",
+  "seoTitle": "NdFeB Magnets for Hydropower & Tidal Energy | YOUJIU",
+  "seoDescription": "High-coercivity NdFeB magnets for hydropower and tidal generators. Marine-grade coatings, N42-N52 grades, custom arc segments. Contact YOUJIU for a quote.",
+  "seoKeywords": "hydro generator magnet, NdFeB magnet for tidal energy, neodymium magnet hydropower, high coercivity NdFeB, marine grade magnet coating, direct drive generator magnet, arc segment magnet, permanent magnet turbine",
+  "published": true,
+  "sortOrder": 31
+}
