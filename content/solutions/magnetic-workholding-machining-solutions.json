@@ -1,0 +1,19 @@
+{
+  "title": "Magnetic Workholding & Machining Fixtures",
+  "slug": "magnetic-workholding-machining-solutions",
+  "industry": "Magnetic Workholding & Machining Fixtures",
+  "painPoint": "Magnetic chucks and modular fixtures must clamp thin-wall aluminum and hardened steel parts without distortion, yet shop-floor conditions expose two persistent failure modes. Grinding and high-speed milling push chuck surface temperatures past 100 degrees C, where standard N42 blocks lose coercivity and grip force drifts between cycles. Residual magnetism left in the workpiece after release then contaminates metrology, attracts chips, and disrupts downstream welding. Fixture builders also fight flux leakage at pole gaps, uneven holding force across large plates, and coolant ingress that degrades NiCuNi coatings. Sourcing NdFeB magnets with repeatable holding force per square centimeter, low residual magnetism, and sealed corrosion protection is the core engineering bottleneck.",
+  "youjiuSolution": "YOUJIU supplies NdFeB magnet arrays engineered for magnetic chucks, electro-permanent fixtures, and modular workholding. We specify N42SH and 38UH grades whose high intrinsic coercivity keeps holding force stable at 120-150 degrees C grinding interfaces, plus 35EH options for aggressive dry machining. Precision-cut pole segments are matched within 0.02 mm to keep flux uniform across plate faces, while demagnetization-tuned circuits cut residual magnetism below 3 gauss at release, protecting precision parts and downstream welding. Epoxy-sealed, NiCuNi-coated assemblies resist coolant and chip abrasion. Send your fixture drawings and holding force targets to YOUJIU for a graded magnet proposal and quote within 24 hours.",
+  "advantages": [
+    "N42SH and 38UH grades hold rated force at 120-150 degrees C grinding heat without flux drift.",
+    "Pole segments machined to 0.02 mm tolerance deliver uniform holding force across large chuck faces.",
+    "Demagnetization-tuned circuits cut residual magnetism below 3 gauss for safe precision part release.",
+    "Epoxy-sealed NiCuNi coatings resist coolant ingress, chip abrasion, and repeated clamp cycles."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnet for Magnetic Chucks & Fixtures | YOUJIU",
+  "seoDescription": "NdFeB magnets for magnetic chucks and machining fixtures: N42SH, 38UH grades stable at 150 degrees C with low residual magnetism. Request a YOUJIU quote today.",
+  "seoKeywords": "ndfeb magnet for magnetic chuck, neodymium magnet workholding, magnetic fixture magnet supplier, n42sh magnet grade, 38uh high temperature magnet, magnetic chuck magnet assembly, precision machining magnet solutions, youjiu magnet",
+  "published": true,
+  "sortOrder": 33
+}
