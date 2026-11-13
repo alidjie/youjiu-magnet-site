@@ -1,0 +1,19 @@
+{
+  "title": "Hydrogen & Fuel Cell Systems",
+  "slug": "hydrogen-fuel-cell-magnet-solutions",
+  "industry": "Hydrogen & Fuel Cell Systems",
+  "painPoint": "Fuel cell air compressors and hydrogen recirculation blowers spin above 100,000 rpm, so rotor magnets must survive extreme centrifugal stress, 150-180 degrees C outlet heat, and a hydrogen-rich atmosphere that attacks the neodymium-rich grain boundary phase. Standard N42 sintered blocks crack at these tip speeds, while unprotected nickel coatings blister once humid cathode exhaust and trace sulfur enter the stack loop. Engineers also fight eddy current heating in solid ring magnets, segment gaps that unbalance high-speed rotors, and insulation breakdown that shorts the rotor to ground. Sourcing NdFeB magnets with verified mechanical strength and hydrogen resistance is the bottleneck.",
+  "youjiuSolution": "YOUJIU builds NdFeB ring and segment magnets for fuel cell compressors, hydrogen recirculation blowers, and electrolyzer pumps. We recommend 35UH and 42SH grades with grain boundary diffusion, holding working flux at 150-180 degrees C while keeping intrinsic coercivity above 20 kOe. Segments are wire-cut and epoxy-bonded to 0.03 mm balance tolerance, with high-resistivity insulation layers that suppress eddy current heating at 100,000 rpm. Parylene and NiCuNi duplex coatings resist humid hydrogen and coolant ingress. Share your rotor drawing, speed, and temperature profile for a graded magnet proposal and quote within 24 hours.",
+  "advantages": [
+    "35UH and 42SH grades with grain boundary diffusion keep flux stable at 150-180 degrees C.",
+    "Segments wire-cut and epoxy-bonded to 0.03 mm balance tolerance for 100,000 rpm rotors.",
+    "High-resistivity insulation layers suppress eddy current heating in high-speed compressor rotors.",
+    "Parylene and NiCuNi duplex coatings resist humid hydrogen, coolant, and trace gas attack."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Hydrogen Fuel Cell Compressors | YOUJIU",
+  "seoDescription": "NdFeB magnets for hydrogen fuel cell compressors and recirculation blowers: 35UH, 42SH grades to 180 degrees C. Request your YOUJIU magnet quote today.",
+  "seoKeywords": "ndfeb magnet for hydrogen fuel cell, neodymium magnet fuel cell compressor, hydrogen recirculation blower magnet, high speed rotor magnet supplier, 35uh high temperature magnet, 42sh neodymium magnet, fuel cell magnet solutions, youjiu magnet",
+  "published": true,
+  "sortOrder": 34
+}
