@@ -1,0 +1,19 @@
+{
+  "title": "Data Centers & IT Infrastructure",
+  "slug": "data-centers-it-infrastructure-magnet-solutions",
+  "industry": "Data Centers & IT Infrastructure",
+  "painPoint": "Data center cooling and power systems run continuously at high duty cycles, where every watt of motor loss becomes direct operating cost. EC fan motors and coolant pumps need NdFeB magnets that hold flux at 60-90 degrees C ambient and in glycol-wet environments, yet standard N42 grades lose output as rotor temperature climbs. High-speed impellers above 20,000 RPM generate eddy current heating that accelerates irreversible loss, while skewed air-gap fields demand tight arc tolerances. Hyperscale operators also require IE5 efficiency, low acoustic noise, and 10-year service life, so magnet grade, coating, and magnetization consistency must be engineered together rather than sourced as a commodity.",
+  "youjiuSolution": "YOUJIU engineers NdFeB arc and ring magnets for data center EC fans, coolant pumps, and magnetic drive couplings. We supply N45SH, N42UH, and 38EH grades that hold intrinsic coercivity above 20 kOe with maximum operating temperatures from 150 to 200 degrees C, so rotors retain flux when coolant loops run warm. Grain boundary diffusion raises Hcj with minimal heavy rare earth, cutting eddy current loss and cost. Segmented arcs are ground to plus or minus 0.03mm and coated with epoxy or NiCuNi for glycol and humidity resistance verified to IEC 60068-2-78. Each batch ships with 100 percent flux mapping and demagnetization curves. Send your fan or pump specification to YOUJIU for a quoted sample set in 24 hours.",
+  "advantages": [
+    "SH, UH, and EH grades keep flux stable from 60C to 200C in continuous cooling duty.",
+    "Grain boundary diffusion cuts heavy rare earth content while holding Hcj above 20 kOe.",
+    "Segmented arcs ground to 0.03mm ensure low torque ripple and quiet high-RPM operation.",
+    "Epoxy and NiCuNi coatings pass glycol immersion and damp heat testing per IEC 60068-2-78."
+  ],
+  "image": "/images/solution-electronics.png",
+  "seoTitle": "NdFeB Magnets for Data Centers & Cooling Systems | YOUJIU",
+  "seoDescription": "NdFeB magnets for data center EC fans, coolant pumps, and magnetic drive couplings. N45SH and 42UH grades, 0.03mm arcs. Request your YOUJIU quote today.",
+  "seoKeywords": "NdFeB magnet for data centers, neodymium magnet EC fan motor, coolant pump magnet, magnetic drive coupling magnet, N45SH magnet, 42UH grade magnet, data center cooling magnet supplier, YOUJIU NdFeB magnets",
+  "published": true,
+  "sortOrder": 35
+}
