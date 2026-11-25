@@ -1,0 +1,19 @@
+{
+  "title": "Printing & Packaging Machinery",
+  "slug": "printing-packaging-machinery-magnet-solutions",
+  "industry": "Printing & Packaging Machinery",
+  "painPoint": "Flexographic plate cylinders and rotary die-cutting stations rely on permanent magnets to hold steel-backed photopolymer plates and flexible dies, yet holding force is rarely uniform across the cylinder face. Thin-wall sleeves leave little room for magnet volume, while press speeds above 200 m/min and solvent-based wash-up cycles create heat and corrosion paths that erode flux. Many converters still specify N42 or N35 assemblies rated for only 80 C, so register drift, plate lift and die slip appear as the press warms up. The result is rejected print runs, frequent re-mounting and unplanned downtime on packaging lines.",
+  "youjiuSolution": "YOUJIU builds magnetic plate cylinders and die-cutting assemblies around your press geometry. We match N52 for compact high-force stations, or 42SH, 35UH and 35EH where heat is the limiting factor, covering maximum operating temperatures from 150 to 200 C. FEA-guided pole layout and multi-pole magnetizing keep holding force uniform across the full web width, including thin-wall sleeves. Ni-Cu-Ni with epoxy sealing resists inks and wash-up solvents, and ground concentricity within 0.05 mm plus gauss-map reports protect register at high press speed. Share your cylinder drawing, plate thickness and ink system for a grade recommendation and quotation.",
+  "advantages": [
+    "Uniform holding force across the full web width, verified by gauss-map reports.",
+    "42SH, 35UH and 35EH grades rated for 150-200 C with low reversible loss.",
+    "FEA-optimized magnet layout fits thin-wall sleeves without sacrificing surface flux.",
+    "Ni-Cu-Ni plus epoxy sealing resists solvent wash-up, inks and repeated mounting."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Printing & Packaging Machinery | YOUJIU",
+  "seoDescription": "NdFeB magnets for printing and packaging machinery: magnetic plate cylinders, die-cutting stations and folder-gluers. 42SH-35EH grades, 150-200 C. Get a quote.",
+  "seoKeywords": "NdFeB printing magnet, magnetic plate cylinder, neodymium magnet packaging machinery, flexo die-cutting magnet, 42SH magnet, 35UH magnet, magnetic cylinder supplier, YOUJIU NdFeB",
+  "published": true,
+  "sortOrder": 38
+}
