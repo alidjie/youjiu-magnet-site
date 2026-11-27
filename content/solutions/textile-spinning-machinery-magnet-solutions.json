@@ -1,0 +1,19 @@
+{
+  "title": "Textile & Spinning Machinery",
+  "slug": "textile-spinning-machinery-magnet-solutions",
+  "industry": "Textile & Spinning Machinery",
+  "painPoint": "Textile machinery runs punishing duty cycles: open-end spinning rotors exceed 100,000 rpm, knitting needle selectors fire thousands of times per minute, and garment dyeing pumps sit in 130 degrees C caustic liquor and saturated steam. Standard N42 blocks lose coercivity under this load, causing torque droop, yarn tension drift and irreversible demagnetization. Rotor imbalance and eddy current heating further cut efficiency, while thin NiCuNi plating pits under dyestuff attack and lot-to-lot flux variation forces constant re-calibration of tension control loops. Magnetic hysteresis brakes in high-speed winders drift as flux decays, so package density control and downstream fabric quality suffer.",
+  "youjiuSolution": "YOUJIU engineers NdFeB magnets for textile duty: 35UH and 38UH grades for 130 degrees C dyeing pump couplings, N42SH and 45SH arc segments for high-speed spinning rotors, and low-loss grades for knitting needle actuators. Grain boundary diffusion lifts intrinsic coercivity above 21 kOe with minimal heavy rare earth, while triple-layer NiCuNi plus epoxy coating survives 480 hours of salt spray. We grind arc and ring geometries to 0.03mm, magnetize radially or diametrically, and ship 100 percent flux reports per lot. Send your drawing and annual volume for a quote in 24 hours.",
+  "advantages": [
+    "35UH and 38UH grades hold full flux at 130C dyeing temperatures without irreversible loss.",
+    "Grain boundary diffusion raises Hcj above 21 kOe while cutting heavy rare earth content.",
+    "Triple-layer NiCuNi with epoxy coating resists caustic dyestuff attack and 480-hour salt spray.",
+    "Arc segments ground to 0.03mm tolerance keep rotors balanced above 100,000 rpm."
+  ],
+  "image": "/images/solution-automation.png",
+  "seoTitle": "NdFeB Magnets for Textile & Spinning Machinery | YOUJIU",
+  "seoDescription": "NdFeB magnets for textile machinery: 35UH 38UH grades rated to 130C for dyeing pumps, arc segments for rotors above 100,000 rpm. Request a YOUJIU quote.",
+  "seoKeywords": "ndfeb magnet for textile machinery, neodymium magnet spinning rotor, dyeing pump magnetic coupling magnet, knitting needle actuator magnet, 35uh magnet, 38uh magnet, textile machinery magnet supplier, youjiu magnet",
+  "published": true,
+  "sortOrder": 39
+}
